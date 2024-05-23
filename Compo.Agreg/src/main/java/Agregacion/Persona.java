@@ -18,6 +18,8 @@ public class Persona {
 	 * @param anioNac
 	 */
 	public Persona(String nombre, String apellido, String rut, int anioNac) {
+		this.nombre = nombre;
+		this.apellido = apellido;
 		// TODO - implement Persona.Persona
 		throw new UnsupportedOperationException();
 	}
@@ -32,6 +34,7 @@ public class Persona {
 	 * @param nuevoAuto
 	 */
 	public void adquirirAuto(Auto nuevoAuto) {
+		autos.add(nuevoAuto);
 		// TODO - implement Persona.adquirirAuto
 		throw new UnsupportedOperationException();
 	}

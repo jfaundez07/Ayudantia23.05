@@ -12,8 +12,8 @@ public class Circulo {
 	 * @param radio
 	 */
 	public Circulo(int x, int y, int radio) {
-		// TODO - implement Circulo.Circulo
-		throw new UnsupportedOperationException();
+		this.centro = new Punto(x, y);
+		this.radio = radio;
 	}
 
 	public Circulo() {
